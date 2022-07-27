@@ -1,7 +1,9 @@
-from github import Github
-from git import Repo
+
 import os
 import logging
+from github import Github
+from git import Repo
+
 
 base_path = "/Volumes/Daten/Projekte/Webs"
 logging.basicConfig(level=logging.INFO)
